@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27337D36E8468FD00A700428 /* Pods_DNAC_Dashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DD2C991AD21E18C41E289C /* Pods_DNAC_Dashboard.framework */; };
+		2D66568420C6028500EBDFA5 /* deviceInventoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D66568320C6028500EBDFA5 /* deviceInventoryInfo.swift */; };
+		2D66568620C86D6400EBDFA5 /* SiteHierarchyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D66568520C86D6400EBDFA5 /* SiteHierarchyData.swift */; };
+		2D66568820C88F5F00EBDFA5 /* NetworkHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D66568720C88F5F00EBDFA5 /* NetworkHealth.swift */; };
 		2DC5932C20C0BCA0001B7E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5932B20C0BCA0001B7E23 /* AppDelegate.swift */; };
-		2DC5932E20C0BCA0001B7E23 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5932D20C0BCA0001B7E23 /* FirstViewController.swift */; };
-		2DC5933020C0BCA0001B7E23 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5932F20C0BCA0001B7E23 /* SecondViewController.swift */; };
+		2DC5932E20C0BCA0001B7E23 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5932D20C0BCA0001B7E23 /* InventoryViewController.swift */; };
+		2DC5933020C0BCA0001B7E23 /* AssuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5932F20C0BCA0001B7E23 /* AssuranceViewController.swift */; };
 		2DC5933320C0BCA0001B7E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5933120C0BCA0001B7E23 /* Main.storyboard */; };
 		2DC5933520C0BCA0001B7E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5933420C0BCA0001B7E23 /* Assets.xcassets */; };
 		2DC5933820C0BCA0001B7E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5933620C0BCA0001B7E23 /* LaunchScreen.storyboard */; };
+		2DC5934020C11DB6001B7E23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5933F20C11DB6001B7E23 /* LoginViewController.swift */; };
+		2DC5934420C1225C001B7E23 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5934320C1225C001B7E23 /* Credentials.swift */; };
+		2DC5934620C12263001B7E23 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5934520C12263001B7E23 /* NetworkManager.swift */; };
+		2DC5934820C128F3001B7E23 /* IPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5934720C128F3001B7E23 /* IPViewController.swift */; };
+		2DC5935620C3EEA2001B7E23 /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5935520C3EEA2001B7E23 /* InventoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061EAE4CD681FD4FE0A6A3EB /* Pods-DNAC Dashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNAC Dashboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DNAC Dashboard/Pods-DNAC Dashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		2D66568320C6028500EBDFA5 /* deviceInventoryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deviceInventoryInfo.swift; sourceTree = "<group>"; };
+		2D66568520C86D6400EBDFA5 /* SiteHierarchyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteHierarchyData.swift; sourceTree = "<group>"; };
+		2D66568720C88F5F00EBDFA5 /* NetworkHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHealth.swift; sourceTree = "<group>"; };
 		2DC5932820C0BCA0001B7E23 /* DNAC Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNAC Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC5932B20C0BCA0001B7E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DC5932D20C0BCA0001B7E23 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2DC5932F20C0BCA0001B7E23 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2DC5932D20C0BCA0001B7E23 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		2DC5932F20C0BCA0001B7E23 /* AssuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssuranceViewController.swift; sourceTree = "<group>"; };
 		2DC5933220C0BCA0001B7E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DC5933420C0BCA0001B7E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC5933720C0BCA0001B7E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DC5933920C0BCA0001B7E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC5933F20C11DB6001B7E23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2DC5934320C1225C001B7E23 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		2DC5934520C12263001B7E23 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2DC5934720C128F3001B7E23 /* IPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPViewController.swift; sourceTree = "<group>"; };
+		2DC5935520C3EEA2001B7E23 /* InventoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
+		61DD2C991AD21E18C41E289C /* Pods_DNAC_Dashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNAC_Dashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		839FCDECD4714A9E3734C64B /* Pods-DNAC Dashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNAC Dashboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNAC Dashboard/Pods-DNAC Dashboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27337D36E8468FD00A700428 /* Pods_DNAC_Dashboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				2DC5932A20C0BCA0001B7E23 /* DNAC Dashboard */,
 				2DC5932920C0BCA0001B7E23 /* Products */,
+				F43D9D0EC0AA7F0517FFBACB /* Pods */,
+				BBF7399AA09CC6882251F062 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +80,39 @@
 			isa = PBXGroup;
 			children = (
 				2DC5932B20C0BCA0001B7E23 /* AppDelegate.swift */,
-				2DC5932D20C0BCA0001B7E23 /* FirstViewController.swift */,
-				2DC5932F20C0BCA0001B7E23 /* SecondViewController.swift */,
+				2DC5934720C128F3001B7E23 /* IPViewController.swift */,
+				2DC5933F20C11DB6001B7E23 /* LoginViewController.swift */,
+				2DC5932D20C0BCA0001B7E23 /* InventoryViewController.swift */,
+				2DC5932F20C0BCA0001B7E23 /* AssuranceViewController.swift */,
 				2DC5933120C0BCA0001B7E23 /* Main.storyboard */,
+				2DC5935520C3EEA2001B7E23 /* InventoryTableViewController.swift */,
+				2DC5934520C12263001B7E23 /* NetworkManager.swift */,
+				2D66568720C88F5F00EBDFA5 /* NetworkHealth.swift */,
+				2D66568320C6028500EBDFA5 /* deviceInventoryInfo.swift */,
+				2D66568520C86D6400EBDFA5 /* SiteHierarchyData.swift */,
+				2DC5934320C1225C001B7E23 /* Credentials.swift */,
 				2DC5933420C0BCA0001B7E23 /* Assets.xcassets */,
 				2DC5933620C0BCA0001B7E23 /* LaunchScreen.storyboard */,
 				2DC5933920C0BCA0001B7E23 /* Info.plist */,
 			);
 			path = "DNAC Dashboard";
+			sourceTree = "<group>";
+		};
+		BBF7399AA09CC6882251F062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61DD2C991AD21E18C41E289C /* Pods_DNAC_Dashboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43D9D0EC0AA7F0517FFBACB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				061EAE4CD681FD4FE0A6A3EB /* Pods-DNAC Dashboard.debug.xcconfig */,
+				839FCDECD4714A9E3734C64B /* Pods-DNAC Dashboard.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC5933C20C0BCA0001B7E23 /* Build configuration list for PBXNativeTarget "DNAC Dashboard" */;
 			buildPhases = (
+				B994C3E7832378235B98168E /* [CP] Check Pods Manifest.lock */,
 				2DC5932420C0BCA0001B7E23 /* Sources */,
 				2DC5932520C0BCA0001B7E23 /* Frameworks */,
 				2DC5932620C0BCA0001B7E23 /* Resources */,
+				1361A3D9A61F8A9DB441F665 /* [CP] Embed Pods Frameworks */,
+				87B6369B38B6C3F2E181DA88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +185,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1361A3D9A61F8A9DB441F665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DNAC Dashboard/Pods-DNAC Dashboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNAC Dashboard/Pods-DNAC Dashboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B6369B38B6C3F2E181DA88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNAC Dashboard/Pods-DNAC Dashboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B994C3E7832378235B98168E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNAC Dashboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DC5932420C0BCA0001B7E23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC5933020C0BCA0001B7E23 /* SecondViewController.swift in Sources */,
+				2DC5934420C1225C001B7E23 /* Credentials.swift in Sources */,
+				2DC5934820C128F3001B7E23 /* IPViewController.swift in Sources */,
+				2D66568820C88F5F00EBDFA5 /* NetworkHealth.swift in Sources */,
+				2D66568620C86D6400EBDFA5 /* SiteHierarchyData.swift in Sources */,
+				2D66568420C6028500EBDFA5 /* deviceInventoryInfo.swift in Sources */,
+				2DC5934020C11DB6001B7E23 /* LoginViewController.swift in Sources */,
+				2DC5933020C0BCA0001B7E23 /* AssuranceViewController.swift in Sources */,
+				2DC5934620C12263001B7E23 /* NetworkManager.swift in Sources */,
 				2DC5932C20C0BCA0001B7E23 /* AppDelegate.swift in Sources */,
-				2DC5932E20C0BCA0001B7E23 /* FirstViewController.swift in Sources */,
+				2DC5932E20C0BCA0001B7E23 /* InventoryViewController.swift in Sources */,
+				2DC5935620C3EEA2001B7E23 /* InventoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +393,13 @@
 		};
 		2DC5933D20C0BCA0001B7E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061EAE4CD681FD4FE0A6A3EB /* Pods-DNAC Dashboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8D92CY7ZA;
 				INFOPLIST_FILE = "DNAC Dashboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CISCO.DNAC-Dashboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +410,13 @@
 		};
 		2DC5933E20C0BCA0001B7E23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839FCDECD4714A9E3734C64B /* Pods-DNAC Dashboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8D92CY7ZA;
 				INFOPLIST_FILE = "DNAC Dashboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CISCO.DNAC-Dashboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
