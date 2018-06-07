@@ -86,7 +86,6 @@ class AssuranceViewController: UIViewController, ChartViewDelegate, UIPickerView
                         let healthScore = data["healthScore"] as! Int
                         self.siteHierarchyChartEntry[category] = ["totalCount":totalCount, "healthScore":healthScore]
                         self.drawMarginChart(input: self.siteHierarchyChartEntry)
-                        print("SITE>>> " + String(describing: self.siteHierarchyChartEntry))
                     }
                     
                 
