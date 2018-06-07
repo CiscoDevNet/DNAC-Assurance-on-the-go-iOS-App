@@ -56,7 +56,7 @@ class LoginViewController: UIViewController {
             self.present(alertController, animated: true, completion: nil)
         } else {
             
-        let authURL = "https://\(ipAddressLabel.text!)/api/system/v1/identitymgmt/login"
+        let authURL = "https://\(ipAddressLabel.text!)/api/system/v1/auth/login"
         
         self.defaults.set(usernameTextField.text, forKey: "cluster_username")
         self.defaults.set(passwordTextField.text, forKey: "cluster_password")

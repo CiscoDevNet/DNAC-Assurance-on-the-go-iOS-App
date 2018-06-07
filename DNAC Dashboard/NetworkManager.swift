@@ -25,7 +25,6 @@ import Foundation
 import Alamofire
 
 class NetworkManager {
-    //This network manager enables the user to bypass certificates, for now...
     let mysessionmanager: Alamofire.SessionManager = {
         let defaults = UserDefaults.standard
         let cluster_ip = defaults.string(forKey: "clusterIP")

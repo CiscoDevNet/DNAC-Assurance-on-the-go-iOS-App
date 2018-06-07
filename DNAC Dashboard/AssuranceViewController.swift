@@ -158,7 +158,7 @@ class AssuranceViewController: UIViewController, ChartViewDelegate, UIPickerView
         //Specify header to run synchronously...
         let headers: HTTPHeaders = [
             "Content-Type":"application/x-www-form-urlencoded",
-            "__runsync": "true"
+            "__runsync":"true"
         ]
         //Specify start time as parameter payload
         let parameters: Parameters = [
@@ -219,6 +219,8 @@ class AssuranceViewController: UIViewController, ChartViewDelegate, UIPickerView
         return selectedSiteName
     }
     
+    //This method draws the horizontal bar graph shown on the
+    //assurance tab
     func drawMarginChart(input: [String:[String: Int]]) {
         
         var category: [String] = []

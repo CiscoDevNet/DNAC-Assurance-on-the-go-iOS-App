@@ -18,7 +18,6 @@
 		2DC5933520C0BCA0001B7E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5933420C0BCA0001B7E23 /* Assets.xcassets */; };
 		2DC5933820C0BCA0001B7E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5933620C0BCA0001B7E23 /* LaunchScreen.storyboard */; };
 		2DC5934020C11DB6001B7E23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5933F20C11DB6001B7E23 /* LoginViewController.swift */; };
-		2DC5934420C1225C001B7E23 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5934320C1225C001B7E23 /* Credentials.swift */; };
 		2DC5934620C12263001B7E23 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5934520C12263001B7E23 /* NetworkManager.swift */; };
 		2DC5934820C128F3001B7E23 /* IPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5934720C128F3001B7E23 /* IPViewController.swift */; };
 		2DC5935620C3EEA2001B7E23 /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5935520C3EEA2001B7E23 /* InventoryTableViewController.swift */; };
@@ -38,7 +37,6 @@
 		2DC5933720C0BCA0001B7E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DC5933920C0BCA0001B7E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DC5933F20C11DB6001B7E23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		2DC5934320C1225C001B7E23 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		2DC5934520C12263001B7E23 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2DC5934720C128F3001B7E23 /* IPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPViewController.swift; sourceTree = "<group>"; };
 		2DC5935520C3EEA2001B7E23 /* InventoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				2D66568720C88F5F00EBDFA5 /* NetworkHealth.swift */,
 				2D66568320C6028500EBDFA5 /* deviceInventoryInfo.swift */,
 				2D66568520C86D6400EBDFA5 /* SiteHierarchyData.swift */,
-				2DC5934320C1225C001B7E23 /* Credentials.swift */,
 				2DC5933420C0BCA0001B7E23 /* Assets.xcassets */,
 				2DC5933620C0BCA0001B7E23 /* LaunchScreen.storyboard */,
 				2DC5933920C0BCA0001B7E23 /* Info.plist */,
@@ -248,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC5934420C1225C001B7E23 /* Credentials.swift in Sources */,
 				2DC5934820C128F3001B7E23 /* IPViewController.swift in Sources */,
 				2D66568820C88F5F00EBDFA5 /* NetworkHealth.swift in Sources */,
 				2D66568620C86D6400EBDFA5 /* SiteHierarchyData.swift in Sources */,
